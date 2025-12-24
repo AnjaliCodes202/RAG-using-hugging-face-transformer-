@@ -1,0 +1,4 @@
+Machine learning is a field of artificial intelligence that focuses on building systems that learn from data.
+Supervised learning, unsupervised learning, and reinforcement learning are major categories of machine learning.
+Algorithms such as linear regression, decision trees, and neural networks are commonly used.
+Machine learning applications include image recognition, recommendation systems, and fraud detection.

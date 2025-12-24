@@ -1,0 +1,4 @@
+Large Language Models (LLMs) are neural networks trained on massive amounts of text data.
+They learn patterns in language and can generate human-like text responses.
+However, LLMs may produce incorrect or outdated information because they rely on static training data.
+To improve reliability, external tools and retrieval mechanisms can be integrated with LLMs.

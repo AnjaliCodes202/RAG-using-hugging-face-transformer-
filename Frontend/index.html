@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RAG Question Answering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>📄 RAG Question Answering</h1>
+
+    <textarea id="question" placeholder="Ask a question from your documents..."></textarea>
+
+    <button onclick="askQuestion()">Ask</button>
+
+    <div id="loading" class="hidden">⏳ Thinking...</div>
+
+    <div id="answer-box" class="hidden">
+        <h3>Answer</h3>
+        <p id="answer"></p>
+
+        <h4>Sources</h4>
+        <ul id="sources"></ul>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
