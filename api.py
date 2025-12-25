@@ -84,7 +84,7 @@ app.mount(
 # -----------------------------
 # Load pipeline ONCE (startup)
 # -----------------------------
-documents = load_file("data/documents/")
+documents = load_file("Data/Documents/")
 chunks = chunk_document(documents)
 
 embedder = Embedder()
