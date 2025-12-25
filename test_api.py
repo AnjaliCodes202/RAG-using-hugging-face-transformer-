@@ -1,10 +1,10 @@
-from fastapi import FastAPI
-import os
+# from fastapi import FastAPI
+# import os
 
-print("🔥 LOADED test_api.py FROM:", os.path.abspath(__file__))
+# print("🔥 LOADED test_api.py FROM:", os.path.abspath(__file__))
 
-app = FastAPI()
+# app = FastAPI()
 
-@app.get("/ping")
-def ping():
-    return {"msg": "pong"}
+# @app.get("/ping")
+# def ping():
+#     return {"msg": "pong"}
